@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -W -O0 --apcs=interwork --asm --interleave --asm_dir "..\\..\\Listing\\" -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\Alogrisem\inc -I ..\..\User\BSP_Init\inc -I ..\..\User\exDev\inc
+-I J:\Project\第二代机器鱼程序\AV1.3\Project\RVMDK（uv4）\RTE
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I D:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="520" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\..\output\stm32f10x_dma.o --list_dir "..\\..\\Listing\\" --list --omf_browse ..\..\output\stm32f10x_dma.crf --depend ..\..\output\stm32f10x_dma.d --feedback "..\..\Output\Template.fed" "..\..\Libraries\FWlib\src\stm32f10x_dma.c"
